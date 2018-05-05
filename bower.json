@@ -1,0 +1,9 @@
+{
+  "name": "David Campos Web Page",
+  "version": "1.0.0",
+  "dependencies": {
+  	"bootstrap": "3.0.0",
+    "font-awesome": "3.2.1",
+    "jquery": "2.0.3"
+  }
+}
