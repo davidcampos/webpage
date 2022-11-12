@@ -49,14 +49,14 @@
     </nav>
 
     <!-- Home -->
-    <a class="anchor" id="home"></a>
+    <div class="anchor" id="home"></div>
     <div class="home background-red">
         <div class="title">Hi!</div>
         <div class="subtitle">I'm <strong>David Campos</strong>, a Portuguese <br> enthusiastic about <strong>leadership</strong> and <strong>software engineering</strong>.</div>
     </div>
 
     <!-- About -->
-    <a class="anchor" id="about"></a>
+    <div class="anchor" id="about"></div>
     <div class="about background-gray-light">
         <div class="container">
             <div class="row text-center">
@@ -93,11 +93,11 @@
                     <div class="contact-title">Contact me:</div>
             </div>
             <div class="contact row text-center">
-                <a class="contact-big" href="mailto:me@davidcampos.org">
+                <a class="contact-big" aria-label="E-mail" href="mailto:me@davidcampos.org">
                     <div><i class="icon-envelope"></i></div>
                     <div>me@davidcampos.org</div>
                 </a>
-                <a class="contact-big" style="cursor:default;">
+                <a class="contact-big" aria-label="Phone" href="tel:+351910735271">
                     <div><i class="icon-phone"></i></div>
                     <div>+351 910 735 271</div>
                 </a>
@@ -105,15 +105,15 @@
 
             <div class="contact-small row text-center">
                 <!-- Social -->
-                <a href="https://www.facebook.com/david.cmps" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="icon-facebook"></i></a>
-                <a href="https://twitter.com/davidcmps" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="icon-twitter"></i></a>
+                <a aria-label="Facebook" href="https://www.facebook.com/david.cmps" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="icon-facebook"></i></a>
+                <a aria-label="Twitter" href="https://twitter.com/davidcmps" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="icon-twitter"></i></a>
 
                 <!-- Professional -->
-                <a href="http://www.linkedin.com/in/davidmcampos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="icon-linkedin"></i></a>
-                <a href="https://github.com/davidcampos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="icon-github"></i></a>
-                <a href="http://stackoverflow.com/users/116803/david-campos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Stack Exchange"><i class="icon-stackexchange"></i></a>
-                <a href="https://www.researchgate.net/profile/David_Campos5" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="ResearchGate"><i style="line-height:30px; font-style:normal;">RG</i></a>
-                <a href="http://scholar.google.pt/citations?user=P8QtsZ8AAAAJ" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Google Scholar"><i style="line-height:30px; font-style:normal;">GS</i></a>
+                <a aria-label="LinkedIn" href="http://www.linkedin.com/in/davidmcampos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="LinkedIn"><i class="icon-linkedin"></i></a>
+                <a aria-label="GitHub" href="https://github.com/davidcampos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="icon-github"></i></a>
+                <a aria-label="Stack Exchange" href="http://stackoverflow.com/users/116803/david-campos" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Stack Exchange"><i class="icon-stackexchange"></i></a>
+                <a aria-label="ResearchGate" href="https://www.researchgate.net/profile/David_Campos5" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="ResearchGate"><i style="line-height:30px; font-style:normal;">RG</i></a>
+                <a aria-label="Google Scholar" href="http://scholar.google.pt/citations?user=P8QtsZ8AAAAJ" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Google Scholar"><i style="line-height:30px; font-style:normal;">GS</i></a>
             </div>
 
             <div class="gap"></div>
@@ -126,7 +126,7 @@
         </div>
     </footer>
 
-    <script defer src="scripts/jquery/jquery.min.js"></script>
+    <script defer src="scripts/jquery/dist/jquery.min.js"></script>
     <script defer src="scripts/bootstrap/dist/js/bootstrap.min.js"></script>
     <script defer src="scripts/bootstrap/assets/js/respond.min.js"></script>
     <script defer src="scripts/bootstrap/js/tooltip.js"></script>
