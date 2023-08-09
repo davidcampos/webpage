@@ -2,7 +2,8 @@
 <html lang="en-gb">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>David Campos</title>
+    <title>David Campos - About</title>
+    <link rel="icon" type="image/x-icon" href="favicon.webp">
     <meta name="description" content="David Campos is a Portuguese enthusiastic about leadership and software engineering.">
     <meta name="keywords" content="david, david campos, portfolio, data mining, machine learning, text mining, engineering, leadership, research">
     <meta name="author" content="David Campos">
@@ -12,6 +13,7 @@
     <link href="scripts/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="css/index.css" rel="stylesheet" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap' rel='stylesheet' media="screen" type='text/css'>
+    <meta name="google-site-verification" content="usHQFhx3x07GIlczbV6Ofvfp-b00BeLtPV6qhUA9wvk" />
   </head>
   <body data-spy="scroll" data-target="#menu">
     <!-- Nagivation bar -->
@@ -40,9 +42,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="menu" class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li id="nav-home" class="active"><a href="#home">Home</a></li>
-              <li id="nav-about"><a href="#about">About</a></li>
-              <li><a href="https://hands-on-tech.github.io" target="_blank">Blog</a></li>
+              <li id="nav-home" class="active"><a href="#home">About</a></li>
+              <!--<li id="nav-about"><a href="#about">About</a></li>
+              <li><a href="https://hands-on-tech.github.io" target="_blank">Blog</a></li>-->
+              <li><a href="/blog" target="_self">Blog</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -131,14 +134,14 @@
     <script defer src="scripts/bootstrap/assets/js/respond.min.js"></script>
     <script defer src="scripts/bootstrap/js/tooltip.js"></script>
     <script defer src="js/index.js"></script>
-    <script defer>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF3Z7JG4F3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      ga('create', 'UA-43570234-1', 'davidcampos.org');
-      ga('send', 'pageview');
+    gtag('config', 'G-XF3Z7JG4F3');
     </script>
   </body>
 </html>
